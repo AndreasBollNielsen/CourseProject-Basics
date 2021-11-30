@@ -5,17 +5,19 @@ import { AppComponent } from './app.component';
 import { ShoppingListComponent } from './shopping-list/shopping-list.component';
 import { ShoppingListEditComponent } from './ShoppingList-Edit/ShoppingList-Edit.component';
 import { RecipeListComponent } from './Recipe-List/Recipe-List.component';
-import { RecipeItemComponent } from './Recipe-Item/Recipe-Item.component';
-import { RecipeDetailComponent } from './Recipe-detail/Recipe-detail.component';
+import { RecipeDetailComponent } from './Recipe/Recipe-detail/Recipe-detail.component';
+import { HeaderComponent } from './header/header.component';
+import { RecipeItemComponent } from './Recipe-List/recipe-item/recipe-item.component';
 
 @NgModule({
-  declarations: [				
+  declarations: [
     AppComponent,
     ShoppingListComponent,
       ShoppingListEditComponent,
       RecipeListComponent,
-      RecipeItemComponent,
-      RecipeDetailComponent
+      RecipeDetailComponent,
+      HeaderComponent,
+      RecipeItemComponent
    ],
   imports: [
     BrowserModule
