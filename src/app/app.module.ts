@@ -9,6 +9,7 @@ import { RecipeDetailComponent } from './recipes/Recipe-detail/Recipe-detail.com
 import { HeaderComponent } from './header/header.component';
 import { RecipeItemComponent } from './recipes/Recipe-List/recipe-item/recipe-item.component';
 import { RecipesComponent } from './recipes/recipes.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -22,6 +23,7 @@ import { RecipesComponent } from './recipes/recipes.component';
       RecipesComponent
    ],
   imports: [
+    FormsModule,
     BrowserModule
   ],
   providers: [],
