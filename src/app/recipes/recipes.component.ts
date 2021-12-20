@@ -1,17 +1,17 @@
 import { Component, OnInit } from '@angular/core';
-import { Recipe } from './recipe.model';
+import { RecipeServiceService } from './Recipe-List/RecipeService.service';
 
 @Component({
   selector: 'app-recipes',
   templateUrl: './recipes.component.html',
-  styleUrls: ['./recipes.component.css']
+  styleUrls: ['./recipes.component.css'],
+  providers: [RecipeServiceService]
 })
 export class RecipesComponent implements OnInit {
 
-  selctedRecipe: Recipe;
   constructor() { }
 
-  ngOnInit(): void {
-  }
+  //subscripe to event handling recipe selection
+  ngOnInit(): void{}
 
 }
