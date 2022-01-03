@@ -11,11 +11,8 @@ import { HeaderComponent } from './header/header.component';
 import { RecipeItemComponent } from './recipes/Recipe-List/recipe-item/recipe-item.component';
 import { RecipesComponent } from './recipes/recipes.component';
 import { FormsModule } from '@angular/forms';
-<<<<<<< HEAD
-=======
-import { ShoppingListServiceService } from './ShoppingList/ShoppingListService.service';
->>>>>>> 18cb73710d17ad47f80848ff8df2d5b7fbab3c19
 import { DropdownDirective } from './Shared/dropdown.directive';
+import { ShoppingListServiceService } from './ShoppingList/ShoppingListService.service';
 
 @NgModule({
   declarations: [
